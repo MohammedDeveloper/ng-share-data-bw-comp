@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Sharing Data b/w Components';
+  title = 'Angular: Sharing Data b/w Components';
 }

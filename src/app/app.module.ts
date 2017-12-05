@@ -6,6 +6,8 @@ import { ParentComponent } from '../parent/app.parent';
 import { ChildComponent } from '../child/app.child';
 import { SiblingComponent } from '../sibling/app.sibling';
 
+import { DataService } from '../services/app.dataservice';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,9 @@ import { SiblingComponent } from '../sibling/app.sibling';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    DataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
