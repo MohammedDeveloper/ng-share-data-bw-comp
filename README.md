@@ -10,7 +10,7 @@
 - Declare the event emitter object
 - Create a function which handles event to emit the variable value
 
-# 2. ViewChild() decorator, AfterViewInit interface
+# 3. ViewChild() decorator, AfterViewInit interface
 - Child ==> Parent
 - Injecting child component in parent
 
